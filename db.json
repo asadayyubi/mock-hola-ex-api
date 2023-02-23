@@ -3,6 +3,7 @@
     {
       "id": 1,
       "brand": "Samsung",
+      "category": "mobile",
       "model": "Galaxy S10+",
       "year": 2019,
       "color": "Prism White",
@@ -11,9 +12,9 @@
       "storage": "128 GB",
       "screen_size": "6.4 inch",
       "camera": "Triple camera system",
-      "price": "₹ 35,000",
+      "price": "35000",
       "seller": {
-        "name": "Anjali Gupta",
+        "name": "Karan Shah",
         "email": "anjaligupta@example.com",
         "phone": "+91-9876543210",
         "location": {
@@ -25,13 +26,15 @@
       "description": "Used Samsung Galaxy S10+ in excellent condition. No scratches or dents, works perfectly fine.",
       "images": [
         "https://media.karousell.com/media/photos/products/2019/08/19/used_samsung_galaxy_s10_plus_128gb_black_colour_1566215167_c173883e_progressive.jpg",
-        "https://frankfurt.apollo.olxcdn.com/v1/files/qsg4mozkb13y1-RO/image;s=1000x750"
+        "https://frankfurt.apollo.olxcdn.com/v1/files/qsg4mozkb13y1-RO/image;s=1000x750",
+        "https://5.imimg.com/data5/ANDROID/Default/2020/10/AC/WX/CZ/111894937/prod-20201013-2053487026677601814361986-jpg-500x500.jpg"
       ]
     },
     {
       "id": 2,
       "brand": "Apple",
       "model": "iPhone XR",
+      "category": "mobile",
       "year": 2018,
       "color": "Red",
       "condition": "Used - Good",
@@ -39,7 +42,7 @@
       "storage": "64 GB",
       "screen_size": "6.1 inch",
       "camera": "12 MP rear, 7 MP front",
-      "price": "₹ 25,000",
+      "price": "25000",
       "seller": {
         "name": "Sneha Singh",
         "email": "snehasingh@example.com",
@@ -53,13 +56,15 @@
       "description": "Used iPhone XR in good condition. Some signs of wear and tear but works perfectly fine.",
       "images": [
         "https://di2ponv0v5otw.cloudfront.net/posts/2020/04/05/5e8a8ed87ec30cd99a01d8e5/s_5e8a8f1892078621b698aebc.jpg",
-        "https://images.olx.com.pk/thumbnails/328683122-240x180.jpeg"
+        "https://images.olx.com.pk/thumbnails/328683122-240x180.jpeg",
+        "https://www.knowyourmobile.com/wp-content/uploads/2019/09/iphone-8-plus-vs-iphone-xs-max.png"
       ]
     },
     {
       "id": 3,
       "brand": "OnePlus",
       "model": "6T",
+      "category": "mobile",
       "year": 2018,
       "color": "Mirror Black",
       "condition": "Used - Very Good",
@@ -67,7 +72,7 @@
       "storage": "128 GB",
       "screen_size": "6.41 inch",
       "camera": "16 MP + 20 MP rear, 16 MP front",
-      "price": "₹ 22,000",
+      "price": "22000",
       "seller": {
         "name": "Karan Shah",
         "email": "karanshah@example.com",
@@ -81,13 +86,15 @@
       "description": "Used OnePlus 6T in very good condition. No scratches or marks.",
       "images": [
         "https://apollo-singapore.akamaized.net/v1/files/sz35x9q511x22-IN/image;s=272x0",
-        "https://images.olx.com.pk/thumbnails/329217618-400x300.jpeg"
+        "https://images.olx.com.pk/thumbnails/329217618-400x300.jpeg",
+        "https://i.gadgets360cdn.com/products/large/1544599845_635_oneplus_6t_mclaren_edition.jpg"
       ]
     },
     {
       "id": 4,
       "brand": "Xiaomi",
       "model": "Redmi Note 8 Pro",
+      "category": "mobile",
       "year": 2019,
       "color": "Gamma Green",
       "condition": "Used - Like New",
@@ -95,7 +102,7 @@
       "storage": "128GB",
       "ram": "6GB",
       "screen_size": "6.53 inches",
-      "price": "₹ 11,000",
+      "price": "11000",
       "seller": {
         "name": "Arvind Gupta",
         "email": "arvindgupta@example.com",
@@ -117,6 +124,7 @@
       "id": 5,
       "brand": "Oppo",
       "model": "F17 Pro",
+      "category": "mobile",
       "year": 2020,
       "color": "Matte Black",
       "condition": "Used - Excellent",
@@ -124,7 +132,7 @@
       "storage": "128GB",
       "ram": "8GB",
       "screen_size": "6.43 inches",
-      "price": "₹ 16,500",
+      "price": "16500",
       "seller": {
         "name": "Rahul Verma",
         "email": "rahulverma@example.com",
@@ -153,7 +161,7 @@
       "material": "Canvas",
       "size": "Medium",
       "style": "Handbag",
-      "price": "₹ 50,000",
+      "price": "50000",
       "seller": {
         "name": "Neha Singh",
         "email": "nehasingh@example.com",
@@ -184,7 +192,7 @@
         "height": "10 inches",
         "depth": "6 inches"
       },
-      "price": "₹ 7,500",
+      "price": "7500",
       "seller": {
         "name": "Priya Patel",
         "email": "priyapatel@example.com",
@@ -204,15 +212,17 @@
     },
     {
       "id": 8,
-      "make": "Ford",
+      "brand": "Ford",
       "model": "Mustang",
       "year": "2015",
       "color": "Blue",
+      "category": "car",
+      "kilometers_driven": "30000",
       "condition": "Used - Excellent",
       "status": "unsold",
       "transmission": "Manual",
       "fuel_type": "Petrol",
-      "price": "₹ 15,00,000",
+      "price": "1500000",
       "seller": {
         "name": "Ravi Kumar",
         "email": "ravikumar@example.com",
@@ -232,15 +242,17 @@
     },
     {
       "id": 9,
-      "make": "Honda",
+      "brand": "Honda",
       "model": "City",
       "year": "2013",
       "color": "Silver",
       "condition": "Used - Good",
+      "category": "car",
       "status": "unsold",
       "transmission": "Automatic",
       "fuel_type": "Petrol",
-      "price": "₹ 5,00,000",
+      "price": "500000",
+      "kilometers_driven": "30000",
       "seller": {
         "name": "Sanjay Singh",
         "email": "sanjaysingh@example.com",
@@ -263,13 +275,14 @@
       "brand": "Hyundai",
       "model": "i20",
       "year": 2015,
+      "category": "car",
       "color": "Red",
       "condition": "Used - Very Good",
       "status": "unsold",
       "fuel_type": "Diesel",
       "transmission": "Manual",
-      "kilometers_driven": "75,000",
-      "price": "₹ 4,00,000",
+      "kilometers_driven": "75000",
+      "price": "400000",
       "seller": {
         "name": "Sneha Sharma",
         "email": "snehasharma@example.com",
@@ -293,12 +306,13 @@
       "model": "Swift",
       "year": 2017,
       "color": "Silver",
+      "category": "car",
       "condition": "Used - Good",
       "status": "unsold",
       "fuel_type": "Petrol",
       "transmission": "Manual",
-      "kilometers_driven": "45,000",
-      "price": "₹ 5,50,000",
+      "kilometers_driven": "45000",
+      "price": "550000",
       "seller": {
         "name": "Rajeev Patel",
         "email": "rajeevpatel@example.com",
@@ -318,15 +332,17 @@
     },
     {
       "id": 12,
-      "make": "Mahindra",
+      "brand": "Mahindra",
       "model": "Scorpio",
       "year": "2017",
       "color": "White",
+      "category": "car",
       "condition": "Used - Good",
       "status": "unsold",
       "transmission": "Manual",
       "fuel_type": "Diesel",
-      "price": "₹ 9,50,000",
+      "kilometers_driven": "45000",
+      "price": "950000",
       "seller": {
         "name": "Rahul Gupta",
         "email": "rahulgupta@example.com",
@@ -345,6 +361,256 @@
       ]
     },
     {
+      "id": 22,
+      "brand": "Maruti Suzuki",
+      "model": "Swift Dzire",
+      "year": 2015,
+      "color": "White",
+      "category": "car",
+      "condition": "Used - Good",
+      "status": "unsold",
+      "fuel_type": "Diesel",
+      "transmission": "Manual",
+      "kilometers_driven": "65000",
+      "price": "550000",
+      "seller": {
+        "name": "Rajesh Kumar",
+        "email": "rajesh.kumar@example.com",
+        "phone": "+91-9876543210",
+        "location": {
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "country": "India"
+        }
+      },
+      "description": "Well maintained Maruti Swift Dzire for sale. Used as family car and serviced regularly.",
+      "images": [
+        "https://imgd-ct.aeplcdn.com/640X480/cw/ucp/stockApiImg/FYW21GS_ed1e74d7e4404202be9de61ab6ef58cf_1_26004340.jpg?q=75",
+        "https://imgd.aeplcdn.com/300x225/cw/ucp/stockApiImg/6XOOTWF_8dafbac8a1f4415faa9d9ca1b116533b_1_26977824.jpg?q=75",
+        "https://imgd-ct.aeplcdn.com/640X480/cw/ucp/s2441901/marutisuzuki-swiftdzire-ldi-638105078099823695.jpg?q=75"
+      ]
+    },
+    {
+      "id": 23,
+      "brand": "Hyundai",
+      "model": "i20",
+      "year": 2017,
+      "color": "Black",
+      "category": "car",
+      "condition": "Used - Good",
+      "status": "unsold",
+      "fuel_type": "Petrol",
+      "transmission": "Automatic",
+      "kilometers_driven": "40000",
+      "price": "675000",
+      "seller": {
+        "name": "Amit Singh",
+        "email": "amit.singh@example.com",
+        "phone": "+91-9876543210",
+        "location": {
+          "city": "New Delhi",
+          "state": "Delhi",
+          "country": "India"
+        }
+      },
+
+      "description": "Well maintained Hyundai i20 for sale. Used as office car and serviced regularly.",
+      "images": [
+        "https://apollo-singapore.akamaized.net/v1/files/ueqhr4p4hyi9-IN/image",
+        "https://imgd.aeplcdn.com/640X480/cw/ucp/stockApiImg/3CHAM7A_27f9acc8262c43b28b044b589d59419a_1_26790410.jpg",
+        "https://cdn-usedcars.autoportal.com/media/image/47fd118745ef74a8e10a2b0b6c0e26d247de82e0/thumb_image/0fb274cefd0738de5c8f5d1b2ef30ac27f13ee24.jpg"
+      ]
+    },
+    {
+      "id": 24,
+      "brand": "Honda",
+      "model": "City",
+      "year": 2014,
+      "color": "Silver",
+      "category": "car",
+      "condition": "Used - Good",
+      "status": "unsold",
+      "fuel_type": "Petrol",
+      "transmission": "Manual",
+      "kilometers_driven": "80000",
+      "price": "450000",
+      "seller": {
+        "name": "Suresh Sharma",
+        "email": "suresh.sharma@example.com",
+        "phone": "+91-9876543210",
+        "location": {
+          "city": "Bangalore",
+          "state": "Karnataka",
+          "country": "India"
+        }
+      },
+      "description": "Well maintained Honda City for sale. Used as family car and serviced regularly.",
+      "images": [
+        "https://images10.gaadicdn.com/usedcar_image/medium_srp/used_car_2696176_1676550711.jpg",
+        "https://imgd.aeplcdn.com/640X480/cw/ucp/stockApiImg/VPCJMBD_ced67afc4a7743e389bcc351519a9413_1_25562992.jpg?q=75",
+        "https://imgd.aeplcdn.com/640X480/cw/ucp/stockApiImg/IOCKEQU_a480582b8745411988c52964288681f9_1_27347497.jpg?q=75"
+      ]
+    },
+    {
+      "id": 25,
+      "brand": "Toyota",
+      "model": "Innova",
+      "year": 2013,
+      "color": "Silver",
+      "category": "car",
+      "condition": "Used - Good",
+      "status": "unsold",
+      "fuel_type": "Diesel",
+      "transmission": "Manual",
+      "kilometers_driven": "100000",
+      "price": "750000",
+      "seller": {
+        "name": "Nisha Jain",
+        "email": "nisha.jain@example.com",
+        "phone": "+91-9876543210",
+        "location": {
+          "city": "Chennai",
+          "state": "Tamil Nadu",
+          "country": "India"
+        }
+      },
+      "description": "Well maintained Toyota Innova for sale. Used for business purposes and serviced regularly.",
+      "images": [
+        "https://imgd-ct.aeplcdn.com/640X480/cw/ucp/stockApiImg/NIX1V10_496c4171a6854b9fb960e91c867aa8e8_1_25892473.jpg?q=75",
+        "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20190626010529_Totota-innova-crysta-3.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJuuAljIDz51d-4_bowWaRvYAm3oHUwqwZEoKL2KN6h0ZEIw5XKtU_eOxc1cdAoCj40bo&usqp=CAU"
+      ]
+    },
+    {
+      "id": 27,
+      "brand": "Toyota",
+      "model": "Fortuner",
+      "year": 2013,
+      "color": "White",
+      "category": "car",
+      "condition": "Used - Good",
+      "status": "unsold",
+      "fuel_type": "Diesel",
+      "transmission": "Manual",
+      "kilometers_driven": "50000",
+      "price": "1750000",
+      "seller": {
+        "name": "Rahul Verma",
+        "email": "rahul.verma@example.com",
+        "phone": "+91-9876543210",
+        "location": {
+          "city": "Patna",
+          "state": "Bihar",
+          "country": "India"
+        }
+      },
+      "description": "Well maintained Toyota Fortuner for sale. Used for business purposes and serviced regularly.",
+      "images": [
+        "https://imgd-ct.aeplcdn.com/640X480/cw/ucp/stockApiImg/X9AP2TV_6da9ad9ed88a46e188ce1acda815c89b_1_27473297.jpg?q=75",
+        "https://images10.gaadi.com/usedcar_image/original/used_car_2694919_1676357904.jpg?imwidth=640",
+        "https://imgd.aeplcdn.com/300x225/cw/ucp/stockApiImg/DP9LOFL_09fb5083f529415e92118588266fe344_1_27095889.jpg?q=75"
+      ]
+    },
+    {
+      "id": 26,
+      "brand": "Toyota",
+      "model": "Corolla Altis",
+      "year": 2018,
+      "category": "car",
+      "condition": "Used - Good",
+      "status": "unsold",
+      "kilometers_driven": 45000,
+      "fuel_type": "Petrol",
+      "transmission": "Automatic",
+      "engine_capacity": 1798,
+      "color": "Silver",
+      "price": 1200000,
+      "description": "This Toyota Corolla Altis is in good condition and has been driven 45,000 km. It comes with a 1.8L petrol engine and automatic transmission. The car is silver in color and located in Mumbai.",
+      "seller": {
+        "name": "Rajesh Kumar",
+        "contact_number": "+91 9876543210",
+        "email": "rajesh@example.com",
+        "location": {
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "country": "India"
+        }
+      },
+      "images": [
+        "https://images10.gaadicdn.com/usedcar_image/medium_srp/used_car_2688218_1675515892.jpg",
+        "https://imgd.aeplcdn.com/300x225/cw/ucp/stockApiImg/AP65IWY_62cea7de4fc047a388d8288d35758ca3_1_27377621.jpg?q=75",
+        "https://imgd.aeplcdn.com/300x225/cw/ucp/s2390813/toyota-corollaaltis-gl-638074785734188862.jpg"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Kia Carnival",
+      "category": "car",
+      "brand": "Kia",
+      "model": "Carnival",
+      "color":"White",
+      "year": 2020,
+      "condition": "Used - Good",
+      "status": "unsold",
+      "kilometers_driven": 45000,
+      "fuel_type": "Diesel",
+      "transmission": "Automatic",
+      "owner": "First Owner",
+
+      "seller": {
+        "name": "Vicky Kumar",
+        "contact_number": "+91 9876543210",
+        "email": "vicky@example.com",
+        "location": {
+          "city": "Bangalore",
+          "state": "Karnataka",
+          "country": "India"
+        }
+      },
+      "price": 2700000,
+      "description": "This is a well-maintained Kia Carnival that has been driven for 18,000 kilometers. The car is a first owner and has been driven carefully on city roads. The diesel engine is in excellent condition and the automatic transmission provides smooth gear shifts. The car has been regularly serviced and all documentation is up to date. The price is slightly negotiable for serious buyers.",
+      "images": [
+        "https://imgd-ct.aeplcdn.com/640X480/cw/ucp/stockApiImg/PLOIEN9_f0d78e9e46e143829d5b8c1bfcc8967f_1_26166981.jpg?q=75",
+        "https://imgd.aeplcdn.com/300x225/cw/ucp/stockApiImg/M8P1SY3_0adb031455f3498c97285d45c78a7918_1_26754400.jpg?q=75",
+        "https://imgd.aeplcdn.com/300x225/cw/ucp/stockApiImg/PLOIEN9_f0d78e9e46e143829d5b8c1bfcc8967f_1_26166981.jpg"
+      ]
+    },
+    
+    {
+      "id": 29,
+      "name": "Kia Sonet",
+      "category": "car",
+      "brand": "Kia",
+      "model": "Sonet",
+      "year": 2021,
+      "color":"red",
+      "condition": "Used - Good",
+      "status": "unsold",
+      "kilometers_driven": 10000,
+      "fuel_type": "Petrol",
+      "transmission": "Manual",
+      "owner": "Second Owner",
+     
+      "seller": {
+        "name": "Shekhar Kumar",
+        "contact_number": "+91 9876543210",
+        "email": "shekhar@example.com",
+        "location": {
+          "city": "Bangalore",
+          "state": "Karnataka",
+          "country": "India"
+        }
+      },
+      "price": 950000,
+      "description": "This is a well-maintained Kia Sonet that has been driven for 10,000 kilometers. The car is a second owner and has been driven carefully on city roads. The petrol engine is in excellent condition and the manual transmission provides smooth gear shifts. The car has been regularly serviced and all documentation is up to date. The price is slightly negotiable for serious buyers.",
+      "images": [
+        " https://imgd-ct.aeplcdn.com/640X480/cw/ucp/stockApiImg/IK3V4Y6_8054f066479146848cda4976a1d5f4a5_1_27238456.jpg?q=75",
+        "https://imgd.aeplcdn.com/370x208/cw/ucp/stockApiImg/GFK01UZ_4a1c704b0964427ba9e5fa6a23d82163_1_27381958.jpg",
+        "https://imgd.aeplcdn.com/370x208/cw/ucp/stockApiImg/XPTX02Z_2874a31bbaef4cc3b9c72e0cd83f1c20_1_27444124.jpg"
+      ]
+    },
+
+    {
       "id": 13,
       "brand": "Nike",
       "model": "Air Max 270",
@@ -353,7 +619,7 @@
       "size": "US 10.5",
       "condition": "Used - Fair",
       "status": "unsold",
-      "price": "₹ 2,500",
+      "price": "2500",
       "seller": {
         "name": "Amit Kumar",
         "email": "amitkumar@example.com",
@@ -379,7 +645,7 @@
       "size": "US 9",
       "condition": "Used - Like New",
       "status": "unsold",
-      "price": "₹ 4,000",
+      "price": "4000",
       "seller": {
         "name": "Samantha Patel",
         "email": "samanthapatel@example.com",
@@ -405,7 +671,7 @@
       "size": "US 8",
       "condition": "Used - Good",
       "status": "unsold",
-      "price": "₹ 1,000",
+      "price": "1000",
       "seller": {
         "name": "Rajesh Gupta",
         "email": "rajeshgupta@example.com",
@@ -428,10 +694,11 @@
       "brand": "TVS",
       "model": "Apache RTR 160",
       "year": 2018,
+      "category":"bike",
       "color": "Matte Blue",
       "condition": "Used - Very Good",
       "status": "unsold",
-      "price": "₹ 60,000",
+      "price": "60000",
       "seller": {
         "name": "Suresh Kumar",
         "email": "sureshkumar@example.com",
@@ -453,11 +720,12 @@
       "id": 17,
       "brand": "Hero",
       "model": "Passion Pro",
+      "category":"bike",
       "year": 2015,
       "color": "Red",
       "condition": "Used - Good",
       "status": "unsold",
-      "price": "₹ 30,000",
+      "price": "30000",
       "seller": {
         "name": "Rajesh Singh",
         "email": "rajeshsingh@example.com",
@@ -480,10 +748,11 @@
       "brand": "Bajaj",
       "model": "Avenger 220 Cruise",
       "year": 2017,
+      "category":"bike",
       "color": "Matte Black",
       "condition": "Used - Excellent",
       "status": "unsold",
-      "price": "₹ 75,000",
+      "price": "75000",
       "seller": {
         "name": "Sushil Kumar",
         "email": "sushilkumar@example.com",
@@ -584,6 +853,143 @@
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc3RhM3uW-FK_U15g-oafzOVotV8v8Qri2sficwsW1iQJVNjL4zoquM7qe8l1Pxp1OMns&usqp=CAU"
       ],
       "description": "Selling my Sony PlayStation 4 gaming console. It's in like new condition and has been well-maintained. Comes with one controller and all necessary cables. Perfect for anyone looking to enjoy the latest games in stunning 4K resolution."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Rajeev Patel",
+      "email": "rajeevpatel@example.com",
+      "phone": "+91 9876543210",
+      "password": "mypassword123",
+      "address": {
+        "street": "123 Main St",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India",
+        "zip": "400001"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Neha Sharma",
+      "email": "nehasharma@example.com",
+      "phone": "+91 9876543211",
+      "password": "letmein456",
+      "address": {
+        "street": "456 Second St",
+        "city": "Delhi",
+        "state": "Delhi",
+        "country": "India",
+        "zip": "110001"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Rajesh Gupta",
+      "email": "rajeshgupta@example.com",
+      "phone": "+91 9876543212",
+      "password": "abc123",
+      "address": {
+        "street": "789 Third St",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "zip": "560001"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Karan Shah",
+      "email": "karanshah@example.com",
+      "phone": "+91 9876543213",
+      "password": "password123",
+      "address": {
+        "street": "234 Fourth St",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "zip": "600001"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Amit Kumar",
+      "email": "amitkumar@example.com",
+      "phone": "+91 9876543214",
+      "password": "mypassword456",
+      "address": {
+        "street": "567 Fifth St",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "country": "India",
+        "zip": "700001"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Shreya Gupta",
+      "email": "shreya.gupta@gmail.com",
+      "phone": "+91-9876543210",
+      "address": {
+        "street": "124-A, Sector 15",
+        "city": "Gurgaon",
+        "state": "Haryana",
+        "pincode": "122001"
+      },
+      "password": "shreya@123"
+    },
+    {
+      "id": "7",
+      "name": "Karthik Menon",
+      "email": "karthik.menon@gmail.com",
+      "phone": "+91-9876543210",
+      "address": {
+        "street": "25, Swargate Road",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "pincode": "411042"
+      },
+      "password": "karthik@123"
+    },
+    {
+      "id": "8",
+      "name": "Jyoti Singh",
+      "email": "jyoti.singh@gmail.com",
+      "phone": "+91-9876543210",
+      "address": {
+        "street": "56, Nehru Nagar",
+        "city": "Bhopal",
+        "state": "Madhya Pradesh",
+        "pincode": "462003"
+      },
+      "password": "jyoti@123"
+    },
+    {
+      "id": "9",
+      "name": "Amitabh Chakraborty",
+      "email": "amitabh.chakraborty@gmail.com",
+      "phone": "+91-9876543210",
+      "address": {
+        "street": "44, Vivekananda Road",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "pincode": "700007"
+      },
+      "password": "amitabh@123"
+    },
+    {
+      "id": "10",
+      "name": "Ravi Patel",
+      "email": "ravi.patel@gmail.com",
+      "phone": "+91-9876543210",
+      "address": {
+        "street": "12, Navrangpura",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "pincode": "380009"
+      },
+      "password": "ravi@123"
     }
   ]
 }
