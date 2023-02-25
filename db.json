@@ -13,6 +13,7 @@
       "screen_size": "6.4 inch",
       "camera": "Triple camera system",
       "price": "35000",
+      "strprice": "₹ 35,000",
       "seller": {
         "name": "Karan Shah",
         "email": "anjaligupta@example.com",
@@ -43,6 +44,7 @@
       "screen_size": "6.1 inch",
       "camera": "12 MP rear, 7 MP front",
       "price": "25000",
+      "strprice": "₹ 25,000",
       "seller": {
         "name": "Sneha Singh",
         "email": "snehasingh@example.com",
@@ -73,6 +75,7 @@
       "screen_size": "6.41 inch",
       "camera": "16 MP + 20 MP rear, 16 MP front",
       "price": "22000",
+      "strprice": "₹ 22,000",
       "seller": {
         "name": "Karan Shah",
         "email": "karanshah@example.com",
@@ -103,6 +106,7 @@
       "ram": "6GB",
       "screen_size": "6.53 inches",
       "price": "11000",
+      "strprice": "₹ 11,000",
       "seller": {
         "name": "Arvind Gupta",
         "email": "arvindgupta@example.com",
@@ -133,6 +137,7 @@
       "ram": "8GB",
       "screen_size": "6.43 inches",
       "price": "16500",
+      "strprice": "₹ 16,500",
       "seller": {
         "name": "Rahul Verma",
         "email": "rahulverma@example.com",
@@ -162,6 +167,7 @@
       "size": "Medium",
       "style": "Handbag",
       "price": "50000",
+      "strprice": "₹ 50,000",
       "seller": {
         "name": "Neha Singh",
         "email": "nehasingh@example.com",
@@ -193,6 +199,7 @@
         "depth": "6 inches"
       },
       "price": "7500",
+      "strprice": "₹ 7,500",
       "seller": {
         "name": "Priya Patel",
         "email": "priyapatel@example.com",
@@ -223,6 +230,8 @@
       "transmission": "Manual",
       "fuel_type": "Petrol",
       "price": "1500000",
+      "strprice": "₹ 15,00,000",
+      "owner": "1st",
       "seller": {
         "name": "Ravi Kumar",
         "email": "ravikumar@example.com",
@@ -252,7 +261,9 @@
       "transmission": "Automatic",
       "fuel_type": "Petrol",
       "price": "500000",
+      "strprice": "₹ 5,00,000",
       "kilometers_driven": "30000",
+      "owner": "2nd",
       "seller": {
         "name": "Sanjay Singh",
         "email": "sanjaysingh@example.com",
@@ -283,6 +294,8 @@
       "transmission": "Manual",
       "kilometers_driven": "75000",
       "price": "400000",
+      "owner": "2nd",
+      "strprice": "₹ 4,00,000",
       "seller": {
         "name": "Sneha Sharma",
         "email": "snehasharma@example.com",
@@ -312,7 +325,9 @@
       "fuel_type": "Petrol",
       "transmission": "Manual",
       "kilometers_driven": "45000",
+      "owner": "1st",
       "price": "550000",
+      "strprice": "₹ 5,50,000",
       "seller": {
         "name": "Rajeev Patel",
         "email": "rajeevpatel@example.com",
@@ -343,6 +358,8 @@
       "fuel_type": "Diesel",
       "kilometers_driven": "45000",
       "price": "950000",
+      "strprice": "₹ 9,50,000",
+      "owner": "2nd",
       "seller": {
         "name": "Rahul Gupta",
         "email": "rahulgupta@example.com",
@@ -373,6 +390,8 @@
       "transmission": "Manual",
       "kilometers_driven": "65000",
       "price": "550000",
+      "owner": "1st",
+      "strprice": "₹ 5,50,000",
       "seller": {
         "name": "Rajesh Kumar",
         "email": "rajesh.kumar@example.com",
@@ -403,6 +422,8 @@
       "transmission": "Automatic",
       "kilometers_driven": "40000",
       "price": "675000",
+      "owner": "1st",
+      "strprice": "₹ 6,75,000",
       "seller": {
         "name": "Amit Singh",
         "email": "amit.singh@example.com",
@@ -434,6 +455,8 @@
       "transmission": "Manual",
       "kilometers_driven": "80000",
       "price": "450000",
+      "owner": "3rd",
+      "strprice": "₹ 4,50,000",
       "seller": {
         "name": "Suresh Sharma",
         "email": "suresh.sharma@example.com",
@@ -464,6 +487,8 @@
       "transmission": "Manual",
       "kilometers_driven": "100000",
       "price": "750000",
+      "strprice": "₹ 7,50,000",
+      "owner": "2nd",
       "seller": {
         "name": "Nisha Jain",
         "email": "nisha.jain@example.com",
@@ -494,6 +519,8 @@
       "transmission": "Manual",
       "kilometers_driven": "50000",
       "price": "1750000",
+      "owner": "1st",
+      "strprice": "₹ 17,50,000",
       "seller": {
         "name": "Rahul Verma",
         "email": "rahul.verma@example.com",
@@ -524,7 +551,9 @@
       "transmission": "Automatic",
       "engine_capacity": 1798,
       "color": "Silver",
+      "owner": "2nd",
       "price": 1200000,
+      "strprice": "₹ 12,00,000",
       "description": "This Toyota Corolla Altis is in good condition and has been driven 45,000 km. It comes with a 1.8L petrol engine and automatic transmission. The car is silver in color and located in Mumbai.",
       "seller": {
         "name": "Rajesh Kumar",
@@ -548,14 +577,15 @@
       "category": "car",
       "brand": "Kia",
       "model": "Carnival",
-      "color":"White",
+      "color": "White",
       "year": 2020,
       "condition": "Used - Good",
       "status": "unsold",
       "kilometers_driven": 45000,
       "fuel_type": "Diesel",
+      "owner": "1st",
       "transmission": "Automatic",
-      "owner": "First Owner",
+      
 
       "seller": {
         "name": "Vicky Kumar",
@@ -568,6 +598,7 @@
         }
       },
       "price": 2700000,
+      "strprice": "₹ 27,00,000",
       "description": "This is a well-maintained Kia Carnival that has been driven for 18,000 kilometers. The car is a first owner and has been driven carefully on city roads. The diesel engine is in excellent condition and the automatic transmission provides smooth gear shifts. The car has been regularly serviced and all documentation is up to date. The price is slightly negotiable for serious buyers.",
       "images": [
         "https://imgd-ct.aeplcdn.com/640X480/cw/ucp/stockApiImg/PLOIEN9_f0d78e9e46e143829d5b8c1bfcc8967f_1_26166981.jpg?q=75",
@@ -575,7 +606,7 @@
         "https://imgd.aeplcdn.com/300x225/cw/ucp/stockApiImg/PLOIEN9_f0d78e9e46e143829d5b8c1bfcc8967f_1_26166981.jpg"
       ]
     },
-    
+
     {
       "id": 29,
       "name": "Kia Sonet",
@@ -583,14 +614,14 @@
       "brand": "Kia",
       "model": "Sonet",
       "year": 2021,
-      "color":"red",
+      "color": "red",
       "condition": "Used - Good",
       "status": "unsold",
       "kilometers_driven": 10000,
       "fuel_type": "Petrol",
       "transmission": "Manual",
-      "owner": "Second Owner",
-     
+      "owner": "2nd",
+
       "seller": {
         "name": "Shekhar Kumar",
         "contact_number": "+91 9876543210",
@@ -602,11 +633,175 @@
         }
       },
       "price": 950000,
+      "strprice": "₹ 9,50,000",
       "description": "This is a well-maintained Kia Sonet that has been driven for 10,000 kilometers. The car is a second owner and has been driven carefully on city roads. The petrol engine is in excellent condition and the manual transmission provides smooth gear shifts. The car has been regularly serviced and all documentation is up to date. The price is slightly negotiable for serious buyers.",
       "images": [
         " https://imgd-ct.aeplcdn.com/640X480/cw/ucp/stockApiImg/IK3V4Y6_8054f066479146848cda4976a1d5f4a5_1_27238456.jpg?q=75",
         "https://imgd.aeplcdn.com/370x208/cw/ucp/stockApiImg/GFK01UZ_4a1c704b0964427ba9e5fa6a23d82163_1_27381958.jpg",
         "https://imgd.aeplcdn.com/370x208/cw/ucp/stockApiImg/XPTX02Z_2874a31bbaef4cc3b9c72e0cd83f1c20_1_27444124.jpg"
+      ]
+    },
+    {
+      "id": 30,
+      "brand": "Mahindra",
+      "model": "XUV500",
+      "year": "2015",
+      "color": "Silver",
+      "category": "car",
+      "condition": "Used - Excellent",
+      "status": "sold",
+      "transmission": "Automatic",
+      "fuel_type": "Diesel",
+      "kilometers_driven": "75000",
+      "price": "750000",
+      "owner": "2nd",
+      "strprice": "₹ 7,50,000",
+      "seller": {
+        "name": "Priya Singh",
+        "email": "priyasingh@example.com",
+        "phone": "+91-8765432109",
+        "location": {
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "country": "India"
+        }
+      },
+      "description": "2015 Mahindra XUV500 in excellent condition. Fully loaded with features like leather seats, sunroof, and automatic climate control. Has been driven for 75,000 km and comes with a comprehensive insurance policy. Ideal for long drives and family trips.",
+      "images": [
+        "https://cdn-usedcars.autoportal.com/media/image/332b95228d0444b5ac0b533df4e7c1881e274743/thumb_image/e46372169fe0d58595e56c17bf9fbf7544b1b416.jpg",
+        "https://5.imimg.com/data5/AH/XW/MY-34171884/2013-mahindra-xuv500-w8-500x500.png",
+        "https://imgd-ct.aeplcdn.com/640X480/cw/ucp/stockApiImg/ALT6P8L_eddff8af5202491ebf108fbc5de83909_1_24645550.jpg?q=75"
+      ]
+    },
+    {
+      "id": 31,
+      "brand": "Mahindra",
+      "model": "KUV100 NXT",
+      "year": "2018",
+      "color": "Red",
+      "category": "car",
+      "condition": "Used - Like New",
+      "status": "unsold",
+      "transmission": "Manual",
+      "fuel_type": "Petrol",
+      "kilometers_driven": "15000",
+      "price": "550000",
+      "strprice": "₹ 5,50,000",
+      "owner": "1st",
+      "seller": {
+        "name": "Vikram Patel",
+        "email": "vikrampatel@example.com",
+        "phone": "+91-7654321098",
+        "location": {
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "country": "India"
+        }
+      },
+      "description": "2018 Mahindra KUV100 NXT in like-new condition. Driven for only 15,000 km and has been regularly serviced. Comes with power steering, air conditioning, and a touchscreen infotainment system. Ideal for city driving and small families.",
+      "images": [
+        "https://cdn-usedcars.autoportal.com/media/image/4f27a634101e70c92c2f52815589b1ce2f7b8111/thumb_image/9392f063e39a7198b605046585914b20c0e6df1a.jpg",
+        "https://img.autotrader.co.za/22547603/Crop640x480",
+        "https://img.etimg.com/thumb/msid-61051566,width-480,height-360,imgsize-296134,resizemode-4/the-previous-mahindra-kuv100.jpg"
+      ]
+    },
+    {
+      "id": 32,
+      "brand": "Mahindra",
+      "model": "Verito",
+      "year": "2013",
+      "color": "Black",
+      "category": "car",
+      "condition": "Used - Fair",
+      "status": "unsold",
+      "transmission": "Manual",
+      "fuel_type": "Diesel",
+      "kilometers_driven": "100000",
+      "price": "250000",
+      "owner": "2nd",
+      "strprice": "₹ 2,50,000",
+      "seller": {
+        "name": "Anjali Gupta",
+        "email": "anjaligupta@example.com",
+        "phone": "+91-9876543210",
+        "location": {
+          "city": "Delhi",
+          "state": "Delhi",
+          "country": "India"
+        }
+      },
+      "description": "2013 Mahindra Verito in fair condition. Has been driven for 100,000 km and has minor dents and scratches on the body. Comes with power windows, air conditioning, and a music system. Ideal for someone looking for a budget car.",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTutd8Tmg1mAivelsVXw0kzEpoZTVuMlX-Sq0g2hMdKoGDLKAYfPfGXE1K50P2oWbbMQ8&usqp=CAU",
+        "https://imganuncios.mitula.net/medium/mahindra_verito_2012_diesel_used_2012_mahindra_verito_1_5_d6_abs_executive_bs_iv_for_sale_3960066675519237843.jpg",
+        "https://images10.gaadi.com/usedcar_image/original/VCC_hres_LEP4EBQI2T_dcd1bd71_Exterior_3_1664560_333_1671697545.jpg?imwidth=640"
+      ]
+    },
+    {
+      "id": "33",
+      "brand": "Tata",
+      "model": "Indica",
+      "category": "car",
+      "year": 2011,
+      "color": "Silver",
+      "price": 98000,
+      "condition": "Used - Fair",
+      "transmission": "Manual",
+      "fuel_type": "Petrol",
+      "owner": "3rd",
+      "engine": "1.2L",
+      "status": "unsold",
+      "kilometers_driven": "20000",
+      "strprice": "₹ 98,000",
+      "seller": {
+        "name": "Asad Ayyubi",
+        "email": "asadayyubi@example.com",
+        "phone": "+91-9876543210",
+        "location": {
+          "city": "New Delhi",
+          "state": "Delhi",
+          "country": "India"
+        }
+      },
+      "description": "Tata Indica in fair condition. Has been driven for 20,000 km and has minor dents and scratches on the body. Comes with power windows, air conditioning, and a music system. Ideal for someone looking for a budget car.",
+      "images": [
+        "https://imgd-ct.aeplcdn.com/640X480/cw/ucp/stockApiImg/1AB3YAD_bdf138ec74fd42bcac2fa6d179ee92cd_1_22229902.jpg?q=75",
+        "https://imgd-ct.aeplcdn.com/640X480/cw/ucp/s2374577/tata-indica-ls-638066631547108123.jpg?q=75",
+        "https://img.indianauto.com/crop/459x287/2019/07/31/658ace83-21dc-4274-8758-1cdf546eb90c-91ca.jpg"
+      ]
+    },
+
+    {
+      "id": "34",
+      "brand": "Chevrolet",
+      "model": "Spark",
+      "year": 2013,
+      "color": "Black",
+      "price": 80000,
+      "transmission": "Manual",
+      "fuel_type": "Petrol",
+      "engine": "1.0L",
+      "category": "car",
+      "condition": "Used - Fair",
+      "status": "unsold",
+      "kilometers_driven": "15000",
+      "owner": "1st",
+      "strprice": "₹ 15,000",
+      "seller": {
+        "name": "Ravi Kumar",
+        "email": "ravikumar@example.com",
+        "phone": "+91-9876543210",
+        "location": {
+          "city": "Bhopal",
+          "state": "Madhya Pradesh",
+          "country": "India"
+        }
+      },
+      "description": "Chevrolet Spark in fair condition. Has been driven for 15,000 km and has minor dents and scratches on the body. Comes with power windows, air conditioning, and a music system. Ideal for someone looking for a budget car.",
+      "images": [
+        "https://images10.gaadi.com/usedcar_image/original/zz1_crop_img_63f30ae3cacad_1676872419.jpg?imwidth=640",
+        "https://5.imimg.com/data5/XL/NH/MY-12558960/chevrolet-spark-1-0-ls-bs3-28petrol-29-used-car-500x500.png",
+        "https://imgd-ct.aeplcdn.com/640X480/cw/ucp/stockApiImg/AMWTT53_51aef911fb214554837890ef466958f9_1_27563381.jpg?q=75"
       ]
     },
 
@@ -694,7 +889,7 @@
       "brand": "TVS",
       "model": "Apache RTR 160",
       "year": 2018,
-      "category":"bike",
+      "category": "bike",
       "color": "Matte Blue",
       "condition": "Used - Very Good",
       "status": "unsold",
@@ -720,7 +915,7 @@
       "id": 17,
       "brand": "Hero",
       "model": "Passion Pro",
-      "category":"bike",
+      "category": "bike",
       "year": 2015,
       "color": "Red",
       "condition": "Used - Good",
@@ -748,7 +943,7 @@
       "brand": "Bajaj",
       "model": "Avenger 220 Cruise",
       "year": 2017,
-      "category":"bike",
+      "category": "bike",
       "color": "Matte Black",
       "condition": "Used - Excellent",
       "status": "unsold",
@@ -780,7 +975,7 @@
       "year": "2022",
       "condition": "Used - Like New",
       "status": "unsold",
-      "price": "₹ 25,000",
+      "price": "25000",
       "seller": {
         "name": "Neha Sharma",
         "email": "nehasharma@example.com",
@@ -990,6 +1185,43 @@
         "pincode": "380009"
       },
       "password": "ravi@123"
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "username": "lov_kumar",
+      "fullname": "Lov Kumar",
+      "email": "lov@example.com",
+      "password": "mysecretpassword",
+      "phone": "+91 9876543210"
+    },
+
+    {
+      "id": "2",
+      "username": "asad_ayyubi",
+      "fullname": "Asad Ayyubi",
+      "email": "ayyubi@example.com",
+      "password": "p@ssw0rd",
+      "phone": "+91 9876543211"
+    },
+
+    {
+      "id": "3",
+      "username": "priyanka_sanodiya",
+      "fullname": "Priyanka Sanodiya",
+      "email": "priyanka@example.com",
+      "password": "password@123",
+      "phone": "+91 9876543212"
+    },
+
+    {
+      "id": "4",
+      "username": "baibhav_kumar",
+      "fullname": "Baibhav Kumar",
+      "email": "baibhav@example.com",
+      "password": "pass123",
+      "phone": "+91 9876543213"
     }
   ]
 }
